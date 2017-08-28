@@ -6,7 +6,8 @@ git_source(:github) do |repo_name|
 end
 
 gem 'react_on_rails', '8.0.3'
-gem 'recurring_select'
+
+gem 'recurring_select',  git: 'https://github.com/sahild/recurring_select.git', branch: 'master'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.3'
